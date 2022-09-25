@@ -1,0 +1,74 @@
+*{
+    margin: 3px;
+}
+
+header{
+
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 120px;
+    font-size: 9t;
+    
+}
+
+body{
+    
+   background: black;
+   display: flex;
+   min-width: 421px;
+   min-height: 700px;
+}
+
+#sobre{
+
+
+    color: yellow;
+    font-size: 80pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+    padding: 10px;
+    text-align: center;
+}
+
+#daImagem{
+
+    width: 320px;
+}
+
+#textPhoto{
+
+    margin: 6px;
+    color: white;
+    display: table;
+    justify-content: left;
+    
+}
+
+#textDireita{
+
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#rodPe{
+
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width:400px) {
+    
+    body{
+        max-width: 400px; 
+    }
+
+}

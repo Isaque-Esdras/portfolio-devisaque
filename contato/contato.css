@@ -1,0 +1,149 @@
+*{
+    margin: 6px;
+}
+
+body{
+
+    background: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid yellow;
+    min-width: 421px;
+    min-height: 700px;
+}
+
+header{
+
+    background: rgb(0, 0, 0);
+    color: yellow;
+    font-size: 48pt;
+    width: 500px;
+    text-align: center;
+    
+}
+
+#imagens{
+
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+
+}
+
+button#git{
+
+    background-color: yellow;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 14pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+button#git:hover{
+
+    background-color: rgb(254, 254, 247);
+}
+
+button#link{
+
+    background-color:yellow;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 14pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+button#link:hover{
+
+    background-color: rgb(66, 104, 166);
+    color: white;
+}
+
+button#whats{
+
+    background-color:yellow;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 11pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+
+#outrosContatos{
+
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 2px solid yellow;
+    text-align:center ;
+    height: 50px;
+}
+
+#contato{
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px;
+    color: white;
+    font-size: 14pt;
+    
+}
+
+#imgContato{
+
+    width: 250px;
+    height: 190px;
+}
+
+#rodaPe{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+
+   width: 100%;
+   height: 100%;
+}
+
+
+
+@media screen and (max-width:400px) {
+    
+    body{
+        
+        max-width: 400px;
+        border: 5px solid yellow;
+        padding: 45px;
+    }
+
+    #outrosContatos{
+
+        font-size: 18pt;
+        border: none;
+        text-align: left;
+    }
+
+    main{
+        
+        height: 100%;
+    }
+
+    
+   
+}

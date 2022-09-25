@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+
+    background-color: rgb(255, 247, 0);
+   
+}
+
+#topo{
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo{
+
+    font-size: 28pt;
+    padding: 5px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 251, 14);
+    letter-spacing: 3px;
+    text-decoration: overline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+table{
+
+    width: 100%;
+}
+
+#codando{
+
+    width: 50%;
+    height: 20%;
+}
+
+#corpo{
+
+    display: flex;
+}
+
+#textoCorpo{
+ 
+    font-size: 46pt;
+}
+
+#photo{
+
+    line-height: 300px;
+    width: 366px;
+}
+
+#apresentacao{
+
+    font-size: 36pt;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#css{
+
+    background: blue;
+    border: 2px solid white ;
+    color: yellow;
+    border-radius: 10px;
+    display: table-caption;
+   
+}
+
+#js{
+
+    background: red;
+    border: 2px solid white;
+    color: yellow;
+    border-radius: 10px;
+    font-size: 29pt;
+   
+}
+
+
+#html{
+
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#rodaPe{
+    align-items: center;
+    line-height: 140px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imgTitulo{
+
+   background-color: white;
+   padding: 2px;
+   border: 3px solid yellow;
+   border-radius: 30%;
+}
+
+#texto{
+
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+
+
+button{
+    
+    background-color: rgba(255, 255, 0, 0.327);
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:400px) {
+    
+    body{
+        max-width: 400px;
+       
+    }
+
+    #titulo{
+        width: 109%;
+    }
+
+    #textoCorpo{
+       
+        font-size: 23pt;
+        text-align: right;
+    }
+
+    table{
+
+        width: 112%;
+    }
+
+    #rodaPe{
+
+        font-size: 10pt;
+        text-align: center;
+    }
+
+    #corpo{
+
+        display: table-footer-group;
+        
+    }
+   
+    #codando{
+
+        width: 100%;
+    }
+
+    #js{
+
+        font-size: 23pt;
+    }
+}
+
+    
+

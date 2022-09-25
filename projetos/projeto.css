@@ -1,0 +1,78 @@
+*{
+    margin: 9px;
+}
+
+body{
+
+    display: table-row-group;
+    justify-content: space-around;
+    background-color: black;
+    min-width: 430px;
+    min-height: 700px;
+}
+
+
+#relogio{
+
+    width: 250px;
+    height: 150px;
+}
+
+img{
+
+    width: 300px;
+    height: 300px;
+    padding: 0;
+}
+
+button{
+
+    width: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+button:hover{
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(251, 255, 1),  0 0 40px rgb(242, 255, 0),  0 0 80px rgb(255, 251, 0)
+
+}
+
+header{
+
+    background-color: yellow;
+}
+
+span{
+
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: large;
+}
+
+p{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+@media screen and (max-width:400px) {
+    
+    body{
+        max-width: 400px;
+        
+    }
+
+    table{
+
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
