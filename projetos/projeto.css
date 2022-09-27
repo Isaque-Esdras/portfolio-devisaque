@@ -1,28 +1,22 @@
 *{
-    margin: 9px;
+    margin: auto;
 }
 
 body{
-
-    display: table-row-group;
-    justify-content: space-around;
-    background-color: black;
-    min-width: 430px;
-    min-height: 700px;
-}
-
-
-#relogio{
-
-    width: 250px;
-    height: 150px;
+    background: black;
+    width: 100%;
+    display: flexbox;
+    
 }
 
 img{
-
-    width: 300px;
-    height: 300px;
-    padding: 0;
+    width: 550px;
+    height: 350px;
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    margin: 16px;
+    border: 10px solid rgba(255, 255, 0, 0.463);
 }
 
 button{
@@ -33,6 +27,7 @@ button{
     padding: 5px;
     overflow: hidden;
     transition: 0.2s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button:hover{
@@ -42,37 +37,31 @@ button:hover{
 
 }
 
-header{
+main{
 
-    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 10px solid yellow;
 }
 
 span{
-
     color: white;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    font-size: large;
 }
 
-p{
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-}
-
-@media screen and (max-width:400px) {
+@media screen and (min-width:320px),(max-width:500px){
     
     body{
-        max-width: 400px;
-        
+       width: auto;
     }
 
-    table{
+    main{
+        width: auto;
+    }
 
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+    section{
+        width: auto;
     }
 }

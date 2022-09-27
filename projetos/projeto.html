@@ -1,73 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="stylesheet" href="./projeto.css">
     <title>POTFólio - Projetos</title>
 </head>
 <body>
     
+        
+       
    
-    <table border="1">
-        <thead>
-            <td>
+        <main>
+            <span>PROJETOS PRÓPRIOS</span>
+
                 <section>
-                   <button onclick="projetoNubank()">VER</button> <span>Projeto Nubank</span>
                    <img src="./imagemProjeto/projetoNubank.png" alt="">
                    <img src="./imagemProjeto/projetoNubank_interno.png" alt="">
+                   <button onclick="projetoNubank()">VER</button> 
+                   <span>NUBANK, LOGIN E SISTEMA INTERNO</span>
                 </section>
-            </td>
+               
+
+                
+                <section> 
+                    <img src="./imagemProjeto/cvcLogin.png" alt="">
+                    <img src="./imagemProjeto/cvcSistemaInterno.png" alt="">
+                    <button onclick="projetoCvc()">VER</button>
+                    <span>PROJETO CVC LOGIN E SISTEMA INTERNO</span>
+                </section>
+               
+                
+           
+                
+                <section>
+                    <img src="./imagemProjeto/projetoPaleta.jpg" alt="">
+                    <img src="./imagemProjeto/projetoPaletaCores.jpg" alt="">
+                    <button onclick="projetoPaletaDeCores()">VER</button>
+                    <span>PROJETO PALETA DE CORES</span>
+                </section>
+                
+               
+               
+                <section>
+                    <img src="./imagemProjeto/dragoBall.jpg" alt="">
+                    <img src="./imagemProjeto/projetoDragonBall.png" alt="">
+                    <button onclick="projetoDragonBall()">VER</button>
+                    <span>PROJETO DRAGON-BALL-Z</span>
+                </section>
+                
+                
             
-            <td>
-                <button onclick="projetoCvc()">VER</button> <span>Projeto CVC</span>
-                <img src="./imagemProjeto/cvcLogin.png" alt="">
-                <img src="./imagemProjeto/cvcSistemaInterno.png" alt="">
-            </td>
-
-            <td>
-                <button onclick="projetoPaletaDeCores()">VER</button> <span>Proj Paleta de Cores</span>
-                <img src="./imagemProjeto/projetoPaleta.jpg" alt="">
-                <img src="./imagemProjeto/projetoPaletaCores.jpg" alt="">
-            </td>
-            <td>
-                <button onclick="projetoDragonBall()">VER</button> <span>Proj Dragon Ball Z</span>
-                <img src="./imagemProjeto/dragoBall.jpg" alt="">
-                <img src="./imagemProjeto/projetoDragonBall.png" alt="">
-            </td>
-
-            <td>
-                <button onclick="projetoFerramentaRh()">VER</button> <span>Proj Ferramenta RH</span>
-                <img src="./imagemProjeto/projetopagRH.png" alt="">
-                <p>
-                    Essa é uma simples ferramenta pensada para o RH,
-                    ela faz uma verificação dos cadidatos a vagas ou
-                    de colaboradores e traz algumas informações simples
-                    com o intuito de criar um norte para o recrutador ou
-                    para o RH sobre os colaboradores da empresa.
-                    <p>Para visualizar essa funcionalidade, basta clicar em, ver.</p>
-                </p>
-            </td>
+               
+                <section>
+                    <img src="./imagemProjeto/projetopagRH.png" alt="">
+                    <button onclick="projetoFerramentaRh()">VER</button>
+                    <span>PROJETO FERRAMENTA RH</span>
+                </section>
+                
+               
             
-            <td>
-                <button onclick="projetoTelaRelogio()">VER</button> <span>Proj Tela Relógio</span>
-                <img src="./imagemProjeto/projetoTelaAnimadManha.png" alt="">
-                <p>Parece somente uma tela com uma imagem e que mostra o horário,
-                   mas, mais que isso, pensei em criar uma tela que interagisse com 
-                   o horário. Ela passa a partir do horario do dia, a mudar todo
-                   o background anterior para um novo background.
-                   <p>Para visualizar essa funcionalidade, basta clicar em, ver.</p>
-                </p>
-            </td>
-        </thead>
-    </table>
-
-    <section>
-        <h3 id="informativo" style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-            Na tela do celular, toque e arraste para esqueda para passar o SLIDE de Projetos. Ou use o teclado do computador utiizando a tecla com a seta indicando para direita.
-        </h3>
-    </section>
+               
+                <section>
+                    <img src="./imagemProjeto/projetoTelaAnimadManha.png" alt="">
+                    <button onclick="projetoTelaRelogio()">VER</button>
+                    <span>PROJETO TELA RELOGIO</span>
+                </section>
+                
+    </main>
     <script src="./projeto.js"></script>
 </body>
 </html>

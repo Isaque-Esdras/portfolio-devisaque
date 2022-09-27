@@ -6,7 +6,7 @@
 body{
 
     background-color: rgb(255, 247, 0);
-   
+    
 }
 
 #topo{
@@ -50,6 +50,7 @@ table{
 #textoCorpo{
  
     font-size: 46pt;
+    
 }
 
 #photo{
@@ -127,50 +128,26 @@ button{
 }
 
 
-@media screen and (max-width:400px) {
-    
+@media screen and (min-width:320px),(max-width:500px){
+
     body{
-        max-width: 400px;
-       
+        margin: auto;
+        width: auto;
     }
 
-    #titulo{
-        width: 109%;
+    main{
+
+        margin: auto;
+        width: auto;
+    }
+
+    section{
+
+        width:auto;
     }
 
     #textoCorpo{
-       
-        font-size: 23pt;
-        text-align: right;
-    }
 
-    table{
-
-        width: 112%;
-    }
-
-    #rodaPe{
-
-        font-size: 10pt;
-        text-align: center;
-    }
-
-    #corpo{
-
-        display: table-footer-group;
-        
-    }
-   
-    #codando{
-
-        width: 100%;
-    }
-
-    #js{
-
-        font-size: 23pt;
+        width: auto;
     }
 }
-
-    
-
