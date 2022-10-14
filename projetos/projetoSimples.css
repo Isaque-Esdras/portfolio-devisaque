@@ -5,6 +5,7 @@ body{
 
 p{
     color: white;
+    font-size: 18pt;
 }
 section{
     width: auto;
@@ -37,6 +38,20 @@ img{
         transform: rotateX(90deg);
     }to{
         transform: rotateX(0deg);
+    }
+}
+
+@media screen and (max-width:680px) {
+    img{
+        width: 550px;
+    }
+
+    header{
+        font-size: 29pt;
+    }
+
+    p{
+        font-size: 29pt;
     }
 }
 
